@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Test</title>
+</head>
+<style>
+    body{
+        background-color: #000;
+        color:#fff;
+        height: 100vh;
+        width:100vw;
+        overflow:hidden;
+        font-family: sans-serif;
+        font-weight: 900;
+    }
+    .container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        height:100vh;
+        font-size: 7vw;
+    }
+    .container > *{
+        text-align: center;
+    }
+    .dark{
+        color:#030303;
+    }
+    .middle{
+        color:#060606;
+    }
+    .light{
+        color:#101010;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="dark">
+            DARK
+        </div>
+        <div class="middle">
+            MIDDLE
+        </div>
+        <div class="light">
+            LIGHT
+        </div>
+    </div>
+</body>
+</html>
